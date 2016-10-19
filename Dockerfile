@@ -9,6 +9,4 @@ RUN apk update && apk add curl && rm -rf /var/cache/apk/*
 COPY start.sh /tmp/start.sh
 RUN chmod +x /tmp/start.sh
 
-EXPOSE 80
-
 ENTRYPOINT ["/tmp/start.sh"]
