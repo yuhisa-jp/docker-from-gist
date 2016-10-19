@@ -2,7 +2,7 @@ FROM alpine:3.4
 
 MAINTAINER "yuhisa-jp"
 
-ENV GISTURL="https://gist.githubusercontent.com/yuhisa-jp/4cbcd6dc79570c55f6d948"
+ENV GISTURL="https://gist.githubusercontent.com/yuhisa-jp/4cbcd6dc79570c55f6d948a82dbfca91/raw"
 
 RUN apk update && rm -rf /var/cache/apk/*
 ADD $GISTURL /tmp/run.sh
